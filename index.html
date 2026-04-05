@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JN° 工作室</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+  color: #111;
+  text-align: center;
+}
+
+/* 頭像 */
+.profile {
+  margin-top: 30px;
+}
+
+.profile img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.name {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* 網格 */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  padding: 20px;
+}
+
+.grid a {
+  display: block;
+}
+
+.grid img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+/* 社群按鈕 */
+.social {
+  margin: 20px;
+}
+
+.social a {
+  display: block;
+  margin: 10px auto;
+  padding: 12px;
+  width: 220px;
+  border: 1px solid #111;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #111;
+}
+</style>
+
+</head>
+<body>
+
+<!-- 頭像 -->
+<div class="profile">
+  <img src="https://via.placeholder.com/150">
+  <div class="name">Newt 阿杰</div>
+</div>
+
+<!-- 圖片網格 -->
+<div class="grid">
+
+  <a href="https://line.me/你的LINE">
+    <img src="https://via.placeholder.com/300?text=LINE">
+  </a>
+
+  <a href="https://instagram.com/你的IG">
+    <img src="https://via.placeholder.com/300?text=IG">
+  </a>
+
+  <a href="https://threads.net/@你的帳號">
+    <img src="https://via.placeholder.com/300?text=Threads">
+  </a>
+
+  <!-- 你可以繼續加 -->
+  <a href="#"><img src="https://via.placeholder.com/300"></a>
+  <a href="#"><img src="https://via.placeholder.com/300"></a>
+  <a href="#"><img src="https://via.placeholder.com/300"></a>
+
+</div>
+
+<!-- 社群按鈕 -->
+<div class="social">
+  <a href="https://line.me/你的LINE">LINE 官方</a>
+  <a href="https://instagram.com/你的IG">Instagram</a>
+  <a href="https://threads.net/@你的帳號">Threads</a>
+</div>
+
+</body>
+</html>
